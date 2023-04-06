@@ -1,0 +1,106 @@
+*{
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+body {
+    background-image: url(sus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #121212;
+    margin: 50px 250px 10px 250px;
+    border: 5px solid rgb(0, 47, 255);
+    border-radius: 8px;
+    justify-content: space-around;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:focus {
+    transform: scale(0.5);
+}
+
+nav ul li a:hover {
+    color: rgb(0, 17, 255);
+    transform: scale(1.2);
+}
+
+/* .table-design th{
+    background-color: rgb(54, 248, 255);
+} */
+
+.table-design{
+    border: 2px solid rgb(0, 47, 255);
+}
+
+.table-design th{
+    text-transform: uppercase;
+    color: azure;
+    background-color: rgb(47, 85, 255);
+}
+
+.table-design tr{
+    background-color: black;
+}
+
+.table-design td{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+/* .table-design .yellow{
+    animation: yellow-fade-in 5s ease;
+}
+
+@keyframes yellow-fade-in{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: yellow;
+    }
+} 
+
+.table-design .blue{
+    animation: blue-fade-in 5s ease;
+}
+
+@keyframes blue-fade-in{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: blue;
+    }
+} 
+
+.table-design .red{
+    animation: red-fade-in 5s ease;
+}
+
+@keyframes red-fade-in{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: red;
+    }
+}  */
