@@ -19,7 +19,7 @@ $result = mysqli_query($conn, $sql);
 <nav>
         <ul>
             <li><a href ="tiket.php">Data Tiket</a></li>
-            <li><a href ="pengujung.php">Data Pengujung</a></li>
+            <li><a href ="pengujung.php">Data Pengunjung</a></li>
             <li><a href ="transaksi.php">Data Transaksi</a></li>
         </ul>
     </nav>

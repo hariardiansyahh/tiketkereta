@@ -15,7 +15,6 @@ nav {
     border: 5px solid rgb(0, 47, 255);
     border-radius: 8px;
     justify-content: space-around;
-    display: flex;
 }
 
 nav ul li {

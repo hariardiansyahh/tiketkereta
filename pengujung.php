@@ -19,12 +19,12 @@ $result = mysqli_query ($conn,$sql);
     <nav>
         <ul>
             <li><a href ="tiket.php">Data Tiket</a></li>
-            <li><a href ="pengujung.php">Data Pengujung</a></li>
+            <li><a href ="pengujung.php">Data Pengunjung</a></li>
             <li><a href ="transaksi.php">Data Transaksi</a></li>
         </ul>
     </nav>
     <center>
-        <h2>DATA PENGUJUNG</h2>
+        <h2>DATA PENGUNJUNG</h2>
     <table border= "1" cellpadding="10" cellspacing="0" class="table-design">
     <tr>
         <th>ID Pengunjung</th>
