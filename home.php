@@ -10,20 +10,20 @@
     <title>Tiket Kereta</title>
 </head>
 <body>
-    <div class="main">
+    <section class="main">
     <nav>
-        <ul>
+        <ul style="list-style-type: none;">
             <li><a href="#">Home</a></li>
             <li><a href="#">Train Ticket</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Login/Register</a></li>
         </ul>
     </nav>
+</section>
     <h4>Hello, my name is</h4>
             <h1>Hari <span>Ardiansyah</span></h1>
             <h3>I' am a Web Developer.</h3>
-</div>
-
+        
         <div class="hero">
                 <i class="fa-brands fa-whatsapp"></i>
                 <i class="fa-brands fa-facebook"></i>   
