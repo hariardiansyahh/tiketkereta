@@ -5,8 +5,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+}
+.kemal img {
+    width: 350px;
+    height: auto;
+    margin-left: 500px;
+}
+
 section {
-    background: transparent;
+    background-color: transparent;
 }
 
 nav ul {
@@ -48,7 +57,24 @@ nav ul li a:hover{
     background: transparent;
 }
 
-h2{
-    margin-right: left;
-    margin-left: right;
+.hero {
+    display: flex;
+}
+
+.hero a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hero a:hover {
+    transform: scale(1.3);
+    transition: .3s;
 }
