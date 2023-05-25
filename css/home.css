@@ -6,7 +6,7 @@
 }
 
 section {
-    background: transparent;
+    background: #06a4d4;
 }
 
 nav ul {
@@ -27,13 +27,13 @@ nav ul li {
 }
 nav ul li a {
     display: flex;
-    color: black;
+    color: rgb(0, 0, 8);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(27, 202, 233);
+    background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 30px;
-    border: 2px solid transparent;
+    border: 2px solid rgb(255, 251, 0);
     /*text-decoration: none;
     color: white;
     transition: all 0.3s ease-in-out;*/
@@ -43,9 +43,9 @@ nav ul li a {
 nav ul li a:hover{
     text-decoration: none;
     transition: 0.3s;
-    border: 2px solid rgb(27, 202, 233);
+    border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
-    background: transparent;
+    background: rgb(255, 251, 0);
 }
 
 h2{

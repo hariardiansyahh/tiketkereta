@@ -38,8 +38,8 @@
 
     <div class="hero">
         <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.youtube.com/@haribagol9559"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://instagram.com/hriardnsyh?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram" target="_blank"></i></a>
+        <a href="https://www.youtube.com/@haribagol9559" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://instagram.com/hriardnsyh?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://tiktok.com/@sayamausukses12" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
     </div>
 
