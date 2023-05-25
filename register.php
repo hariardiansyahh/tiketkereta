@@ -37,7 +37,8 @@
                 <div class="input-area">
                     <input type="password" name="password-repeat" id="password-repeat" placeholder="Ulangi Password" required>
                     <i class="icon fa-solid fa-repeat"></i>                </div>
-            </div>
+                </div>
+                <input type="hidden" name="role" value="user">
             <input type="submit" name="Register">
         </form>
         <div class="sign-txt">Sudah Punya Akun? <a href="login_form.php">Login Mas Bro</a></div>

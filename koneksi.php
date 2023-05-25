@@ -186,9 +186,9 @@ function getUserByEmail($email){
 }
 
 /**fungsi untuk query insert data user */
-function insertUser($nama_lengkap, $email, $password){
+function insertUser($nama_lengkap, $email, $password, $role){
     $conn = conn();
-    $sql = "INSERT INTO users VALUE ('', '$nama_lengkap', '$email', '$password')";
+    $sql = "INSERT INTO users VALUES ('', '$nama_lengkap', '$email', '$password', '$role')";
     $result = mysqli_query($conn, $sql);
     return $result;
 }

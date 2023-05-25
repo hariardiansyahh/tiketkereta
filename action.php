@@ -121,10 +121,13 @@ switch ($aksi) {
         break; 
     //aksi untuk insert data user
     case 'insert_user':
+        // BUAT NYIMPEN DATA
         $nama_lengkap = $_POST['nama_lengkap'];
         $email = $_POST['email'];
         $password = md5($_POST['password']);
         $repeat_password = md5($_POST['password-repeat']);
+        $role = $_POST['role'];
+
         $user = getUserByEmail($email);
         if (mysqli_num_rows($user) > 0) {
             $msg = "Email sudah terdaftar"; 
@@ -133,7 +136,7 @@ switch ($aksi) {
             $msg = "Password Tidak Sama";
             $loc = "register.php";
         } else {
-            $result = insertUser($nama_lengkap, $email, $password);
+            $result = insertUser($nama_lengkap, $email, $password, $role);
             if ($result) {
                 $msg = "Tambah User Berhasil";
                 $loc = "login_form.php";
